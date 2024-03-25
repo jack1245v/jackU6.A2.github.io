@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Homepage</title>
+<style type="text/css"></style>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="images/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+<header>
+  <div class="logo"><a href="index.htm"><img src="images/Logo.png" alt="ICT Soloutions Logo
+" width="129" height="100" title="Ict Soloutions Logo"/></a>
+   <!-- Navigation Start !--> 
+  </div><nav>
+      <ul>
+        <li><a href="index.htm" title="Homepage">Homepage</a></li>
+        <li><a href="trainee_profiles.htm" title="Trainee Profiles">Trainee Profiles</a></li>
+        <li><a href="job_specification.htm" title="Job Spesification">Job Spesification</a></li>
+        <li><a href="application_form.htm" title="Application Form">Application Form</a></li>
+        <li><a href="course_links.htm" title="Course Links">Course Links</a></li>
+      </ul>
+    </nav>
+</header>
+	  <!-- Navigation End !--> 
+<main>
+  <section id="maintain">
+<h3> Request a Consultation with one of our experts! </h3>
+<h2> Create and Maintain Your Website with ICT Solutions. </h2>
+
+	    <!-- Form Start !--> 
+	  
+	  <form>
+
+  <label>Company Name</label> <input type="text">
+	<label>Email</label> <input type="email">
+	<label>Telephone Number</label> <input type="tel">
+	
+	<form action="#" method="post">
+    <input type="submit" formaction="mailto:22118312@cambria.ac.uk?subject=Hi" method="POST">
+</form>
+
+	</form>
+	  
+	  <!-- Form End !--> 
+	  
+<p>Here at ICT Solutions, we have years of website development experience that we would like to share with you. Experience seamless website development and ongoing support tailored to your needs. Get started and let's build your online presence together!</p>
+	  
+<p>We recognize that a website holds significance. That is why we adopt an approach to developing websites guaranteeing that every element, ranging from design to functionality matches the requirements of the company. We are committed to delivering assistance throughout the process starting from the initial discussion all the way to the launch and, beyond.</p>
+
+<hr>
+		</section>
+	
+	<section id="whyus">
+     
+		<h2>&nbsp;</h2>
+      <h2> Why ICT Soloutions?</h2>
+		<h3>At ICT Solutions we stand out for two reasons!</h3>
+		<p>Years of Expertise: ICT Soloutions have years of experience in Website Development. </p>
+		<p>Abundance of Talent: Our team comprises highly skilled professionals who bring talent and creativity to every project.</p>
+		<p>Customisation: We at ICT Solutions recognise that each of our clients is unique. We therefore customise our services to match your unique requirements and objectives.</p>
+		<p>Client Satisfaction: Keeping customers happy is our top focus. We collaborate closely with you every step of the way to make sure your ideas are executed. </p>
+		<p>On-time Delivery: We recognise the significance of meeting deadlines. Every time, your project will be finished on schedule thanks to our effective project management.</p>
+    </section>
+	<hr>
+	<section id="trusted">
+      <h2> Our Trusted Partners!</h2>
+		<p style="text-align: left">These businesses all use ICT Solutions to enhance their websites. </p>
+	
+		<!-- Slider Start !--> 
+<div class="slider-container">
+  <div class="slider">
+    <div class="slide"><img src="images/Currys_PC_World.png" alt="Image 1"></div>
+    <div class="slide"><img src="images/Dior.png" alt="Image 2"></div>
+    <div class="slide"><img src="images/McDonalds.png" alt="Image 3"></div>
+    <div class="slide"><img src="images/Next.png" alt="Image 4"></div>
+    <div class="slide"><img src="images/Sainsburys.png" alt="Image 5"></div>
+    <div class="slide"><img src="images/Tesco.png" alt="Image 6"></div>
+  </div>
+</div>
+		
+		 <div class="slider-btns">
+    <div class="slider-btn active" data-slide-index="0"></div>
+    <div class="slider-btn" data-slide-index="1"></div>
+    <div class="slider-btn" data-slide-index="2"></div>
+    <div class="slider-btn" data-slide-index="3"></div>
+    <div class="slider-btn" data-slide-index="4"></div>
+    <div class="slider-btn" data-slide-index="5"></div>
+  </div>
+
+ <script>
+  const slides = document.querySelectorAll('.slide');
+  const buttons = document.querySelectorAll('.slider-btn');
+  let currentSlide = 0;
+
+  // Function to show slide
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.style.transform = `translateX(-${index * 100}%)`;
+    });
+    buttons.forEach((button, i) => {
+      button.classList.toggle('active', i === index);
+    });
+    currentSlide = index;
+  }
+
+  // Function to handle button click
+  function handleButtonClick(event) {
+    const index = parseInt(event.target.getAttribute('data-slide-index'));
+    if (!isNaN(index)) {
+      showSlide(index);
+    }
+  }
+
+  // Add click event listener to buttons
+  buttons.forEach(button => {
+    button.addEventListener('click', handleButtonClick);
+  });
+
+  // Auto-slide functionality
+  setInterval(() => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }, 3000);
+
+		</script>
+	<!-- Slider End !--> <!-- For Reference https://www.youtube.com/watch?v=0wvrlOyGlq0 !-->
+	</section>
+	<hr>
+	<section id="footer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <h3 class="social-media-title"> Our Social Media Pages </h3>
+    <div class="footer-content">
+        <ul class="page-links">
+            <li><a href="index.htm" title="Homepage">Homepage</a></li>
+            <li><a href="trainee_profiles.htm" title="Trainee Profiles">Trainee Profiles</a></li>
+            <li><a href="job_specification.htm" title="Job Specification">Job Specification</a></li>
+            <li><a href="application_form.htm" title="Application Form">Application Form</a></li>
+            <li><a href="course_links.htm" title="Course Links">Course Links</a></li>
+        </ul>
+
+        <div class="social-media-icons">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </div>
+    </div>
+</section>
+
+
+
+
+</main>
+		
+</body>
+	
+</html>

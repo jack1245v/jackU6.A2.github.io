@@ -1,0 +1,608 @@
+@charset "utf-8";
+
+body {
+    background-color: #F2F2F2;
+}
+header {
+    width: 1200px;
+    height: 120px;
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    float: left;
+    margin-top: 14px;
+    margin-left: 26px;
+}
+nav {
+    float: left;
+    margin-top: 53px;
+    margin-left: 30px;
+}
+
+ /* Navigation Start*/
+
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    background-color: #D9EAD3;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    margin-right: 40px;
+    border-radius: 12px;
+}
+nav ul li a:hover {
+    background-color: #FFFFFF;
+}
+
+ /* Navigation End*/
+main {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2F2F2;
+}
+#maintain {
+    background-color: #F2F2F2;
+    text-align: left;
+    width: 1200px;
+	
+}
+#maintain h2 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    color: #E69138;
+    width: 600px;
+}
+#maintain p {
+    text-align: left;
+    width: 600px;
+    font-size: large;
+}
+#maintain h3 {
+    color: #E69138;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    width: 350px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    float: right;
+    top: 0px;
+    padding-right: 100px;
+    margin-left: 100px;
+}
+
+#maintain hr {
+    width: 690px;
+    float: left;
+}
+
+ /* Index Form Start*/
+form {
+    float: right;
+    width: 300px;
+    margin-right: 127px;
+    margin-top: 25px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+ 
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Index Form End*/
+
+#whyus {
+}
+#whyus h2 {
+    color: #E69138;
+}
+#whyus h3 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#trusted {
+    text-align: center;
+	overflow: auto;
+	
+}
+#trusted h2 {
+    text-align: left;
+    color: #E69138;
+}
+
+/* Image Slider Start*/
+
+.slider-container {
+    width: 40%;
+    overflow: hidden;
+    margin-left: 360px;
+}
+
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+  .slider-btns {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .slider-btn {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+
+  .slider-btn.active {
+    background-color: #fff;
+  }
+/* -- For Reference https://www.youtube.com/watch?v=0wvrlOyGlq0 */
+/* Image Slider End*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+//* Footer Start*/
+#footer {
+    display: flex;
+    flex-direction: column; /* Added to stack elements vertically */
+    align-items: center;
+}
+
+.social-media-title {
+    text-align: right;
+    margin-top: 20px; /* Adjust spacing */
+	margin-right: 90px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Added to separate the list and icons */
+    align-items: center;
+    width: 100%; /* Added to ensure full width */
+}
+
+.page-links {
+    list-style: none; /* Removed bullet points */
+    display: flex;
+}
+
+.page-links li {
+    margin-right: 10px; /* Added for spacing between links */
+}
+
+.social-media-icons {
+    display: flex;
+}
+
+.fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 50px; /* Adjust width for square shape */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing */
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+/* Footer End*/
+
+
+
+#ourtalent {
+
+}
+#ourtalent h2 {
+    color: #E69138;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    width: 600px;
+}
+#ourtalent p {
+    width: 600px;
+    font-size: large;
+}
+#ourtalent img {
+    width: 400px;
+    margin-right: 127px;
+    margin-bottom: 25px;
+    height: 250px;
+    float: right;
+}
+#OurTraineeWebDevelopers h2 {
+    color: #E69138;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#OurTraineeWebDevelopers .row1images {
+    display: inline-block;
+    margin-left: 85px;
+	
+	
+}
+
+#OurTraineeWebDevelopers .employee1text {
+    width: 250px;
+    margin-left: 120px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	display: inline-block;
+	}
+#OurTraineeWebDevelopers .employee2text {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    display: inline-block;
+    margin-left: 45px;
+	margin-right: 45px;
+}
+#OurTraineeWebDevelopers .employee3text {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	display: inline-block;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- For Reference https://www.w3schools.com/css/css_boxmodel.asp */
+
+#OurTraineeWebDevelopers img {
+    width: 320px;
+    height: 250px;
+}
+
+#OurTraineeWebDevelopers img {
+    width: 320px;
+    height: 250px;
+}
+#expected ul li {
+}
+#footer ul {
+}
+
+
+
+
+
+
+
+
+
+
+@media screen{
+}
+#OurTraineeWebDevelopers .row2images {
+margin-left: 85px;
+}
+
+
+#OurTraineeWebDevelopers .row2images img {
+    width: 320px;
+    height: 250px;
+}
+#OurTraineeWebDevelopers .row2images img {
+    width: 320px;
+    height: 250px;
+}
+#OurTraineeWebDevelopers .row2images img {
+    width: 320px;
+    height: 250px;
+}
+#OurTraineeWebDevelopers .employee1text {
+    border-radius: 10px;
+}
+#OurTraineeWebDevelopers .employee2text {
+    border-radius: 10px;
+}
+
+#OurTraineeWebDevelopers .employee3text {
+    border-radius: 10px;
+}
+
+#OurTraineeWebDevelopers .employee4text {
+    width: 250px;
+    margin-left: 120px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    display: inline-block;
+    border-radius: 10px;
+	}
+
+#OurTraineeWebDevelopers .employee5text {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 10px;
+}
+#OurTraineeWebDevelopers .employee6text {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.employee1text:hover,
+.employee2text:hover,
+.employee3text:hover,
+.employee4text:hover,
+.employee5text:hover,
+.employee6text:hover{
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5); /* Highlighting border */
+    transform: scale(1.05); 
+	transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#OurTraineeWebDevelopers hr {
+}
+#OurTraineeWebDevelopers #footer {
+    padding-top: 20px;
+}
+
+#expected img {
+    width: 450px;
+    height: 350px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+
+#expected h2 {
+    color: #E69138;
+}
+#expected p {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#expected h3 {
+    color: #E69138;
+}
+#expected h3 {
+    color: #E69138;
+}
+#expected h3 {
+    color: #E69138;
+}
+
+
+
+
+#whythese h2 {
+    color: #E69138;
+}
+
+#careers {
+}
+#careers h2 {
+    color: #E69138;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    text-align: center;
+	
+}
+#careers h3 {
+    color: #E69138;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    text-align: center;
+	
+}
+
+#contactdetails h2 {
+    color: #E69138;
+    text-align: left;
+}
+#contactdetails iframe {
+    float: none;
+    list-style-position: outside;
+}
+
+/* Form Start*/
+/* Form Start*/
+.container {
+    background-color: #F2F2F2;
+    margin-bottom: 100px;
+    float: right;
+
+}
+
+#form {
+    width: 350px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+	margin-bottom: 20px;
+   
+}
+
+h1 {
+    text-align: center;
+    color: #E69138;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+
+}
+
+#form button {
+    background-color: #38be13;
+    color: white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34, 193, 195);
+}
+
+.input-group input:focus {
+    outline: 0;
+}
+
+.input-group .error {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success input {
+    border-color: #0cc477;
+}
+
+.input-group.error input {
+    border-color: rgb(206, 67, 67);
+}
+
+/* Form End*/
+
+#learning h2 {
+    color: #E69138;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#courses h2 {
+    color: #E69138;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+
+
+/* Form End*/
+#courses .row1images,
+#courses .row2images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.Microsoft,
+.Udemy,
+.CardiffUni,
+.coursera,
+.CodeAcademy {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Adding transition */
+}
+
+.Microsoft:hover,
+.Udemy:hover,
+.CardiffUni:hover,
+.coursera:hover,
+.CodeAcademy:hover {
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5); /* Highlighting border */
+    transform: scale(1.05); 
+}
+
